@@ -5,11 +5,11 @@ import javax.swing.JPanel;
 import calculator.CalcPanel;
 
 
-public class Calculator {
+public class CalcMain {
 
 	public static void main(String[] args) {
 		JFrame theGUI = new JFrame();
-		theGUI.setTitle("My Calculator");
+		theGUI.setTitle("My CalcMain");
 		theGUI.setSize(220,350);
 		theGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
